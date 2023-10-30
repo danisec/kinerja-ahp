@@ -86,7 +86,7 @@ class RankingKaryawan
         }
 
         $chart = $this->chart->barChart()
-            ->setTitle('Top Ranking');
+            ->setTitle('5 Top Ranking');
 
         // Inisialisasi array untuk menyimpan data
         $chartDataByAlternatives = [];
